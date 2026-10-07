@@ -8,102 +8,185 @@
   :root { color-scheme: light dark; --bg:#ffffff; --fg:#1b1f24; --muted:#5b6570; --accent:#11875f; --line:#e3e7eb; }
   @media (prefers-color-scheme: dark) { :root { --bg:#0b1220; --fg:#e8ecf1; --muted:#9aa6b2; --accent:#3ecf9b; --line:#1f2a3a; } }
   body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
-  main { max-width:760px; margin:0 auto; padding:32px 20px 64px; }
-  h1 { font-size:28px; margin:0 0 4px; }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { font-size:26px; margin:0 0 4px; }
   h2 { font-size:19px; margin:28px 0 8px; color:var(--accent); }
-  .meta { color:var(--muted); font-size:14px; margin-bottom:24px; }
-  nav a { color:var(--accent); margin-right:16px; text-decoration:none; font-weight:600; }
-  section { border-top:1px solid var(--line); margin-top:36px; padding-top:8px; }
-  ul { padding-left:20px; }
+  .meta { color:var(--muted); font-size:14px; margin-bottom:16px; }
+  nav a { color:var(--accent); margin-right:14px; text-decoration:none; font-weight:600; font-size:14px; display:inline-block; margin-bottom:6px; }
+  section { border-top:1px solid var(--line); margin-top:32px; padding-top:8px; }
+  ul, ol { padding-left:22px; }
   li { margin:6px 0; }
+  a { color:var(--accent); }
 </style>
 </head>
 <body>
 <main>
 <h1>Spiritus AI</h1>
-<div class="meta">Gizlilik Politikası · Privacy Policy — Son güncelleme / Last updated: 20 Eylül 2026 / 20 September 2026</div>
+<div class="meta">Gizlilik Politikası · Privacy Policy — Son güncelleme / Last updated: 7 Ekim 2026 / 7 October 2026</div>
+<nav>
+  <a href="privacy.html">Gizlilik Politikası</a><a href="terms.html">Kullanım Koşulları</a><a href="aydinlatma.html">KVKK Aydınlatma Metni</a><a href="premium.html">Premium Abonelik Koşulları</a>
+</nav>
 <nav><a href="#tr">Türkçe</a><a href="#en">English</a></nav>
 
 <section id="tr">
 <h1>Gizlilik Politikası</h1>
-<p>Bu politika, Spiritus AI uygulamasının ("Uygulama") hangi verileri topladığını, nasıl kullandığını ve haklarınızı açıklar. Veri sorumlusu: Ozan Yıldırım (bireysel geliştirici).</p>
+<p>Bu politika, Spiritus AI uygulamasının ("Uygulama") hangi kişisel verileri işlediğini, bunları neden ve nasıl işlediğini ve haklarını açıklar. 6698 sayılı KVKK'nın 10. maddesi kapsamındaki ayrıntılı bilgilendirme için <a href="aydinlatma.html">KVKK Aydınlatma Metni</a>'ni de okuyabilirsin.</p>
 
-<h2>1. Topladığımız Veriler</h2>
+<h2>1. Veri Sorumlusu ve İletişim</h2>
+<p>Veri sorumlusu: <b>Ozan Yıldırım</b> (bireysel geliştirici).<br>E-posta: <a href="mailto:ozanyyildirim33@gmail.com">ozanyyildirim33@gmail.com</a><br>KVKK kapsamındaki başvuru yöntemi için 10. bölüme bakabilirsin.</p>
+
+<h2>2. Yaş Sınırı</h2>
+<p>Uygulama 18 yaş ve üzeri kişiler içindir. Hesap oluşturmadan önce yaşın kontrol edilir; 18 yaşından küçükler Uygulama'yı kullanamaz. 18 yaşından küçük birine ait bir hesap olduğunu öğrenirsek hesabı ve verilerini sileriz.</p>
+
+<h2>3. İşlediğimiz Kişisel Veriler</h2>
 <ul>
-<li><b>Hesap bilgileri:</b> görüntülenen ad ve (isteğe bağlı olarak) e-posta adresi. Hesap; yalnızca adınızla, e-posta ve şifreyle, "Apple ile Giriş" ile ya da "Google ile Giriş" ile oluşturulabilir. Apple veya Google ile girişte bu sağlayıcılardan yalnızca adınız ve e-posta adresiniz alınır; şifreniz bize hiçbir zaman ulaşmaz.</li>
-<li><b>Tercihler:</b> dil, içerik modu, seçtiğiniz dini/felsefi görüş, isteğe bağlı telefon numarası.</li>
-<li><b>Kullanım verileri:</b> günlük kayıtlarınız, kaydettiğiniz içerikler, Rehber sohbet geçmişiniz, anket oylarınız, tesbih (zikir) sayaçlarınız.</li>
-<li><b>Konum verisi:</b> yalnızca Kıble Pusulası ve namaz vakitleri özellikleri kullanılırken cihazınızdan alınır; sunucularımızda kalıcı olarak saklanmaz. Yakındaki ibadet mekânlarını bulmak için konumunuz harita hizmetine iletilir.</li>
-<li><b>Kamera:</b> yalnızca Kıble Pusulası ekranında canlı görüntü göstermek için kullanılır; görüntüler kaydedilmez ve gönderilmez.</li>
-<li><b>Satın alma verisi:</b> Apple üzerinden doğrulanan abonelik durumu (ürün kimliği, son geçerlilik tarihi). Kart bilgileriniz bize hiçbir zaman ulaşmaz, tamamen Apple tarafından işlenir.</li>
+<li><b>Hesap bilgileri:</b> görüntülenen ad ve isteğe bağlı olarak e-posta adresi. Hesap yalnızca adınla, e-posta ve şifreyle, "Apple ile Giriş" ya da "Google ile Giriş" ile oluşturulabilir. Apple veya Google ile girişte bu sağlayıcılardan yalnızca adın ve e-posta adresin alınır; şifren bize hiçbir zaman ulaşmaz.</li>
+<li><b>Tercihler:</b> dil, içerik modu, isteğe bağlı telefon numarası.</li>
+<li><b>Dini/felsefi görüş (isteğe bağlı, özel nitelikli):</b> yalnızca açık rıza verirsen saklanır (bkz. 4. bölüm).</li>
+<li><b>Rehber sohbetleri ve günlük kayıtları (isteğe bağlı):</b> yalnızca açık rıza verirsen işlenir (bkz. 4. bölüm).</li>
+<li><b>Kullanım verileri:</b> kaydettiğin içerikler, anket oyların, tesbih sayaçların, günlük Rehber soru hakkın, Rehber kullanım kayıtları (mesaj başına işlem/token sayısı).</li>
+<li><b>Konum:</b> yalnızca Kıble Pusulası ve namaz vakitleri özellikleri kullanılırken cihazından alınır; sunucularımızda saklanmaz. Yakındaki ibadet mekânlarını ve adresini bulmak için konumun Apple'ın harita hizmetine iletilir.</li>
+<li><b>Kamera:</b> yalnızca Kıble Pusulası ekranında canlı görüntü göstermek için cihazında kullanılır; kaydedilmez ve hiçbir yere gönderilmez.</li>
+<li><b>Abonelik:</b> Apple üzerinden doğrulanan abonelik durumu (ürün kimliği, bitiş tarihi, işlem kimliği). Kart bilgilerin bize hiçbir zaman ulaşmaz.</li>
 </ul>
 
-<h2>2. Verilerin Kullanımı</h2>
-<p>Verileriniz yalnızca Uygulama'nın özelliklerini size sunmak (kişiselleştirilmiş içerik, namaz vakitleri, Rehber sohbeti, abonelik doğrulama) amacıyla kullanılır. Verileriniz satılmaz, reklam amacıyla üçüncü taraflarla paylaşılmaz. Uygulama reklam göstermez ve sizi diğer uygulamalar ve siteler arasında izlemez.</p>
-
-<h2>3. Üçüncü Taraf Hizmet Sağlayıcılar</h2>
+<h2>4. Özel Nitelikli Kişisel Veriler ve Açık Rıza</h2>
+<p>KVKK'nın 6. maddesine göre kişinin dini ve felsefi inancı <b>özel nitelikli kişisel veridir</b>. Uygulama'da bu niteliğe sahip olabilecek üç tür veri vardır ve her biri yalnızca <b>ayrı ve isteğe bağlı açık rızanla</b> işlenir:</p>
 <ul>
-<li><b>Supabase:</b> hesap kimlik doğrulama ve veritabanı barındırma.</li>
-<li><b>Anthropic (Claude API):</b> Rehber sohbetiniz ve bazı karşılaştırma içerikleri, sorunuzun metni bu sağlayıcıya iletilerek üretilir; mesajlarınız yalnızca yanıt üretmek amacıyla işlenir.</li>
-<li><b>Apple:</b> abonelik satın alma ve doğrulama, "Apple ile Giriş" ve harita hizmetleri.</li>
-<li><b>Google:</b> yalnızca "Google ile Giriş" tercih edildiğinde kimlik doğrulama için.</li>
+<li><b>Dini/felsefi görüş seçimi:</b> İbadet ve Pratik ekranlarını sana göre kişiselleştirmek için hesabınla birlikte saklanır.</li>
+<li><b>Rehber mesajları:</b> yazdıklarına göre dini veya felsefi inancını ortaya koyabilir; sorularına yanıt üretmek için işlenir.</li>
+<li><b>Günlük kayıtları:</b> yazdıklarına göre aynı nitelikte olabilir; sana günlük geçmişini göstermek için saklanır.</li>
+</ul>
+<p>Bu onaylar Kullanım Koşulları'nın içine gömülü değildir: her biri ilgili özelliği ilk kez kullandığında ayrı bir ekranda istenir. Onay vermezsen o özellik dışındaki tüm özellikleri kullanmaya devam edebilirsin. Onaylarını istediğin zaman <b>Ayarlar → Açık Rıza İzinleri</b>'nden geri alabilirsin; bu durumda ilgili veriler (görüş seçimin, Rehber sohbet geçmişin veya günlük kayıtların) silinir.</p>
+
+<h2>5. Verileri Hangi Amaçlarla Kullanıyoruz</h2>
+<p>Verilerin yalnızca Uygulama'nın özelliklerini sunmak (kişiselleştirilmiş içerik, namaz vakitleri, Rehber sohbeti, günlük, abonelik doğrulama), hesap ve sistem güvenliğini sağlamak ve hizmet maliyetini izlemek için kullanılır. Hangi verinin hangi hukuki sebebe dayandığı <a href="aydinlatma.html">Aydınlatma Metni</a>'nde tablo hâlinde gösterilir. Verilerin satılmaz, reklam amacıyla paylaşılmaz. Uygulama reklam göstermez ve seni diğer uygulama ve sitelerde izlemez.</p>
+
+<h2>6. Hizmet Sağlayıcılar</h2>
+<ul>
+<li><b>Supabase:</b> hesap kimlik doğrulama ve veritabanı barındırma (AB, Almanya).</li>
+<li><b>Anthropic (Claude API, ABD):</b> Rehber yanıtlarının ve bazı karşılaştırma içeriklerinin üretilmesi.</li>
+<li><b>Apple:</b> abonelik satın alma ve doğrulama, "Apple ile Giriş", harita ve konum hizmetleri.</li>
+<li><b>Google:</b> yalnızca "Google ile Giriş"i seçersen kimlik doğrulama.</li>
 </ul>
 
-<h2>4. Veri Güvenliği</h2>
-<p>Verileriniz, veritabanında satır düzeyinde güvenlik (Row Level Security) kurallarıyla korunur; yalnızca sizin hesabınız kendi verilerinize erişebilir. Veriler aktarım sırasında şifreli (HTTPS) iletilir.</p>
+<h2>7. Yurt Dışına Veri Aktarımı</h2>
+<p>Hesap verilerin ve Uygulama içeriklerin Supabase'in <b>Avrupa Birliği'ndeki (Almanya, Frankfurt)</b> sunucularında saklanır. Rehber'e yazdığın mesajlar, yanıt üretilmesi için <b>ABD'deki Anthropic</b>'e iletilir. Bu işlemler KVKK'nın 9. maddesi kapsamında yurt dışına kişisel veri aktarımıdır ve Kişisel Verileri Koruma Kurulu'nun ilan ettiği standart sözleşmeler esas alınarak yapılır.</p>
+<p>Anthropic'e yalnızca mesajının metni (ve varsa seçtiğin konu/gelenek etiketi) gönderilir. Adın, e-postan, telefonun ve hesap kimliğin gönderilmez; böylece mesaj hesabınla ilişkilendirilemez. Anthropic, API üzerinden iletilen içerikleri model eğitiminde kullanmaz. Rehber'e kimliğini belirleyen bilgiler yazmamanı öneririz.</p>
 
-<h2>5. Saklama ve Haklarınız</h2>
-<p>Verileriniz, hesabınız var olduğu sürece saklanır. Uygulamada Ayarlar → Hesabı Sil yoluyla hesabınızı ve tüm verilerinizi kalıcı olarak silebilirsiniz; bu işlemden sonra verileriniz geri getirilemez. Verilerinize erişim, düzeltme veya silme talepleriniz için aşağıdaki iletişim adresine yazabilirsiniz.</p>
+<h2>8. Saklama Süreleri</h2>
+<ul>
+<li>Hesap, iletişim, tercih, kullanım ve abonelik verileri: hesabını silene kadar.</li>
+<li>Dini/felsefi görüş seçimi ve günlük kayıtları: açık rızanı geri alana veya hesabını silene kadar.</li>
+<li>Rehber sohbetleri: 30 gün; sonra otomatik olarak silinir. Rızanı geri alırsan hemen silinir.</li>
+<li>Rehber kullanım kayıtları (işlem/token sayıları): 12 ay.</li>
+<li>Konum: sunucularımızda saklanmaz.</li>
+</ul>
 
-<h2>6. Çocukların Gizliliği</h2>
-<p>Uygulama 13 yaş altı kullanıcılara yönelik değildir ve bilerek bu yaş grubundan veri toplamaz.</p>
+<h2>9. Veri Güvenliği</h2>
+<p>Verilerin, veritabanında satır düzeyinde güvenlik (Row Level Security) kurallarıyla korunur; yalnızca kendi hesabın kendi verilerine erişebilir. Özel nitelikli veri içerebilecek kayıtlar, sunucu tarafında da ancak açık rızan kayıtlıysa yazılabilir. Veriler aktarım sırasında şifreli (HTTPS) iletilir.</p>
 
-<h2>7. Değişiklikler</h2>
-<p>Bu politika zaman zaman güncellenebilir. Güncel sürüm her zaman bu sayfada yayınlanır ve yukarıdaki "Son güncelleme" tarihi değişir.</p>
+<h2>10. KVKK Kapsamındaki Hakların ve Başvuru</h2>
+<p>KVKK'nın 11. maddesi uyarınca veri sorumlusuna başvurarak:</p>
+<ol type="a">
+<li>Kişisel verilerinin işlenip işlenmediğini öğrenme,</li>
+<li>Kişisel verilerin işlenmişse buna ilişkin bilgi talep etme,</li>
+<li>Kişisel verilerinin işlenme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme,</li>
+<li>Yurt içinde veya yurt dışında kişisel verilerinin aktarıldığı üçüncü kişileri bilme,</li>
+<li>Kişisel verilerinin eksik veya yanlış işlenmiş olması hâlinde bunların düzeltilmesini isteme,</li>
+<li>KVKK m.7'de öngörülen şartlar çerçevesinde kişisel verilerinin silinmesini veya yok edilmesini isteme,</li>
+<li>Düzeltme, silme ve yok etme işlemlerinin, kişisel verilerinin aktarıldığı üçüncü kişilere bildirilmesini isteme,</li>
+<li>İşlenen verilerin münhasıran otomatik sistemler vasıtasıyla analiz edilmesi suretiyle aleyhine bir sonucun ortaya çıkmasına itiraz etme,</li>
+<li>Kişisel verilerinin kanuna aykırı olarak işlenmesi sebebiyle zarara uğraman hâlinde zararın giderilmesini talep etme</li>
+</ol>
+<p>haklarına sahipsin.</p>
+<p><b>Başvuru yöntemi:</b> taleplerini, Uygulama'da kayıtlı e-posta adresinden <a href="mailto:ozanyyildirim33@gmail.com">ozanyyildirim33@gmail.com</a> adresine yazarak iletebilirsin. Başvurunda adın ve soyadın, varsa kayıtlı e-posta adresin ve talebin yer almalıdır; kimliğini doğrulamak için ek bilgi istenebilir. Başvurun en geç 30 gün içinde ücretsiz sonuçlandırılır; işlem ayrıca bir maliyet gerektirirse Kurul'ca belirlenen tarifedeki ücret alınabilir. Sonuçtan memnun kalmazsan KVKK m.14 uyarınca Kişisel Verileri Koruma Kurulu'na şikâyette bulunabilirsin. Ayrıntılar <a href="aydinlatma.html#tr">Aydınlatma Metni</a>'nde yer alır.</p>
 
-<h2>8. İletişim</h2>
-<p>Gizlilikle ilgili sorularınız için: <a href="mailto:ozanyyildirim33@gmail.com">ozanyyildirim33@gmail.com</a></p>
+<h2>11. Hesap Silme ve Abonelik</h2>
+<p>Uygulama'da <b>Ayarlar → Hesabı Sil</b> yoluyla hesabını ve tüm verilerini kalıcı olarak silebilirsin; bu işlem geri alınamaz. <b>Hesabını silmek App Store'daki aktif aboneliğini iptal etmez.</b> Yenilemeyi durdurmak için aboneliğini iPhone'unda Ayarlar → [adın] → Abonelikler bölümünden ayrıca iptal etmelisin. Ayrıntılar: <a href="premium.html">Premium Abonelik Koşulları</a>.</p>
+
+<h2>12. Değişiklikler</h2>
+<p>Bu politika zaman zaman güncellenebilir. Güncel sürüm her zaman bu sayfada yayınlanır ve yukarıdaki "Son güncelleme" tarihi değişir. Önemli değişikliklerde Uygulama içinden bilgilendirilirsin.</p>
 </section>
 
 <section id="en">
 <h1>Privacy Policy</h1>
-<p>This policy explains what data the Spiritus AI app (the "App") collects, how it uses it, and your rights. Data controller: Ozan Yıldırım (individual developer).</p>
+<p>This policy explains what personal data the Spiritus AI app (the "App") processes, why and how, and your rights. For the detailed notice required by Article 10 of the Turkish Personal Data Protection Law No. 6698 (KVKK), see the <a href="aydinlatma.html#en">Privacy Notice</a>.</p>
 
-<h2>1. Data We Collect</h2>
+<h2>1. Data Controller and Contact</h2>
+<p>Data controller: <b>Ozan Yıldırım</b> (individual developer).<br>Email: <a href="mailto:ozanyyildirim33@gmail.com">ozanyyildirim33@gmail.com</a><br>See section 10 for how to submit a KVKK request.</p>
+
+<h2>2. Age Requirement</h2>
+<p>The App is for people aged 18 and over. Your age is checked before an account is created; people under 18 may not use the App. If we learn that an account belongs to someone under 18, we delete the account and its data.</p>
+
+<h2>3. Personal Data We Process</h2>
 <ul>
-<li><b>Account information:</b> display name and, optionally, an email address. An account can be created with just a name, with email and password, with "Sign in with Apple", or with "Sign in with Google". When you use Apple or Google sign-in, we receive only your name and email address from that provider; your password never reaches us.</li>
-<li><b>Preferences:</b> language, content mode, your chosen faith/philosophy, an optional phone number.</li>
-<li><b>Usage data:</b> your journal entries, saved items, Guide chat history, poll votes, dhikr (tasbih) counters.</li>
-<li><b>Location data:</b> taken from your device only while the Qibla Compass or prayer-time features are in use; not stored permanently on our servers. To find nearby places of worship, your location is sent to the map service.</li>
-<li><b>Camera:</b> used only to show a live view on the Qibla Compass screen; images are neither recorded nor sent anywhere.</li>
-<li><b>Purchase data:</b> subscription status verified through Apple (product ID, expiration date). Your payment details never reach us; they are handled entirely by Apple.</li>
+<li><b>Account information:</b> display name and, optionally, an email address. An account can be created with just a name, with email and password, with "Sign in with Apple" or with "Sign in with Google". With Apple or Google sign-in we receive only your name and email from that provider; your password never reaches us.</li>
+<li><b>Preferences:</b> language, content mode, an optional phone number.</li>
+<li><b>Faith/philosophy choice (optional, special category):</b> stored only if you give explicit consent (see section 4).</li>
+<li><b>Guide conversations and journal entries (optional):</b> processed only if you give explicit consent (see section 4).</li>
+<li><b>Usage data:</b> saved items, poll votes, dhikr counters, your daily Guide question allowance, Guide usage records (token counts per message).</li>
+<li><b>Location:</b> taken from your device only while the Qibla Compass or prayer-time features are in use; not stored on our servers. To find nearby places of worship and your address, your location is sent to Apple's map service.</li>
+<li><b>Camera:</b> used only on your device to show a live view on the Qibla Compass screen; never recorded or sent anywhere.</li>
+<li><b>Subscription:</b> subscription status verified through Apple (product ID, expiration date, transaction ID). Your card details never reach us.</li>
 </ul>
 
-<h2>2. How We Use Your Data</h2>
-<p>Your data is used only to deliver the App's features to you (personalized content, prayer times, the Guide chat, subscription verification). Your data is never sold or shared with third parties for advertising. The App shows no ads and does not track you across other apps and websites.</p>
-
-<h2>3. Third-Party Service Providers</h2>
+<h2>4. Special-Category Data and Explicit Consent</h2>
+<p>Under KVKK Article 6, a person's religious and philosophical beliefs are <b>special-category personal data</b>. Three kinds of data in the App can have this nature, and each is processed only with your <b>separate, optional explicit consent</b>:</p>
 <ul>
-<li><b>Supabase:</b> account authentication and database hosting.</li>
-<li><b>Anthropic (Claude API):</b> your Guide chat and some comparison content are generated by sending your question's text to this provider; your messages are processed only to generate a response.</li>
-<li><b>Apple:</b> subscription purchase and verification, "Sign in with Apple", and map services.</li>
-<li><b>Google:</b> only if you choose "Sign in with Google", for authentication.</li>
+<li><b>Faith/philosophy choice:</b> stored with your account to personalize the Practice screens.</li>
+<li><b>Guide messages:</b> depending on what you write, they may reveal your beliefs; processed to answer your questions.</li>
+<li><b>Journal entries:</b> may have the same nature; stored to show you your journal history.</li>
+</ul>
+<p>These consents are not buried in the Terms of Use: each is asked on its own screen the first time you use the related feature. If you don't consent, you can keep using every other feature. You can withdraw consent at any time in <b>Settings → Consents</b>; the related data (your faith choice, Guide history or journal entries) is then deleted.</p>
+
+<h2>5. How We Use Your Data</h2>
+<p>Your data is used only to provide the App's features (personalized content, prayer times, the Guide, the journal, subscription verification), to keep accounts and systems secure, and to monitor service cost. The legal basis for each kind of data is listed in the <a href="aydinlatma.html#en">Privacy Notice</a>. Your data is never sold or shared for advertising. The App shows no ads and does not track you across other apps and websites.</p>
+
+<h2>6. Service Providers</h2>
+<ul>
+<li><b>Supabase:</b> account authentication and database hosting (EU, Germany).</li>
+<li><b>Anthropic (Claude API, USA):</b> generating Guide answers and some comparison content.</li>
+<li><b>Apple:</b> subscription purchase and verification, "Sign in with Apple", map and location services.</li>
+<li><b>Google:</b> authentication, only if you choose "Sign in with Google".</li>
 </ul>
 
-<h2>4. Data Security</h2>
-<p>Your data is protected by Row Level Security rules in the database; only your own account can access your own data. Data is transmitted encrypted (HTTPS).</p>
+<h2>7. Transfers Abroad</h2>
+<p>Your account data and App content are stored on Supabase servers in the <b>European Union (Frankfurt, Germany)</b>. Messages you write to the Guide are sent to <b>Anthropic in the USA</b> to generate an answer. These are transfers of personal data abroad under KVKK Article 9 and are carried out on the basis of the standard contracts published by the Turkish Personal Data Protection Board.</p>
+<p>Only the text of your message (and, if any, the topic or tradition label you picked) is sent to Anthropic. Your name, email, phone and account ID are not, so a message cannot be linked to your account. Anthropic does not use content sent through its API to train models. We recommend not writing identifying details to the Guide.</p>
 
-<h2>5. Retention and Your Rights</h2>
-<p>Your data is kept for as long as your account exists. In the App, you can permanently delete your account and all your data via Settings → Delete Account; your data cannot be recovered after this. For access, correction, or deletion requests you can also write to the contact address below.</p>
+<h2>8. Retention</h2>
+<ul>
+<li>Account, contact, preference, usage and subscription data: until you delete your account.</li>
+<li>Faith/philosophy choice and journal entries: until you withdraw consent or delete your account.</li>
+<li>Guide conversations: 30 days, then deleted automatically. Deleted immediately if you withdraw consent.</li>
+<li>Guide usage records (token counts): 12 months.</li>
+<li>Location: not stored on our servers.</li>
+</ul>
 
-<h2>6. Children's Privacy</h2>
-<p>The App is not directed at users under 13 and does not knowingly collect data from that age group.</p>
+<h2>9. Data Security</h2>
+<p>Your data is protected by Row Level Security rules in the database; only your own account can access your own data. Records that may contain special-category data can only be written on the server if your explicit consent is on record. Data is transmitted encrypted (HTTPS).</p>
 
-<h2>7. Changes</h2>
-<p>This policy may be updated from time to time. The current version is always published on this page and the "Last updated" date above will change.</p>
+<h2>10. Your Rights under KVKK and How to Apply</h2>
+<p>Under KVKK Article 11, by applying to the data controller you have the right to:</p>
+<ol type="a">
+<li>learn whether your personal data is processed,</li>
+<li>request information about it if it has been processed,</li>
+<li>learn the purpose of processing and whether it is used accordingly,</li>
+<li>know the third parties in Turkey or abroad to whom it is transferred,</li>
+<li>request correction if it is incomplete or inaccurate,</li>
+<li>request its deletion or destruction under the conditions of KVKK Article 7,</li>
+<li>request that corrections, deletions and destructions be notified to third parties to whom it was transferred,</li>
+<li>object to a result against you arising from analysis exclusively by automated systems,</li>
+<li>claim compensation if you suffer damage due to unlawful processing.</li>
+</ol>
+<p><b>How to apply:</b> write to <a href="mailto:ozanyyildirim33@gmail.com">ozanyyildirim33@gmail.com</a> from the email address registered in the App, including your full name, your registered email if you have one, and your request; additional information may be requested to verify your identity. Requests are answered free of charge within 30 days at the latest; if the action involves an additional cost, the fee set by the Board's tariff may be charged. If you are not satisfied with the outcome, you may file a complaint with the Personal Data Protection Board under KVKK Article 14. Details are in the <a href="aydinlatma.html#en">Privacy Notice</a>.</p>
 
-<h2>8. Contact</h2>
-<p>For privacy questions: <a href="mailto:ozanyyildirim33@gmail.com">ozanyyildirim33@gmail.com</a></p>
+<h2>11. Account Deletion and Subscriptions</h2>
+<p>You can permanently delete your account and all of your data in the App via <b>Settings → Delete Account</b>; this cannot be undone. <b>Deleting your account does not cancel an active App Store subscription.</b> To stop renewals, cancel the subscription separately on your iPhone under Settings → [your name] → Subscriptions. Details: <a href="premium.html#en">Premium Subscription Terms</a>.</p>
+
+<h2>12. Changes</h2>
+<p>This policy may be updated from time to time. The current version is always published on this page and the "Last updated" date above will change. You will be notified in the App of material changes.</p>
 </section>
 </main>
 </body>

@@ -8,90 +8,112 @@
   :root { color-scheme: light dark; --bg:#ffffff; --fg:#1b1f24; --muted:#5b6570; --accent:#11875f; --line:#e3e7eb; }
   @media (prefers-color-scheme: dark) { :root { --bg:#0b1220; --fg:#e8ecf1; --muted:#9aa6b2; --accent:#3ecf9b; --line:#1f2a3a; } }
   body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
-  main { max-width:760px; margin:0 auto; padding:32px 20px 64px; }
-  h1 { font-size:28px; margin:0 0 4px; }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { font-size:26px; margin:0 0 4px; }
   h2 { font-size:19px; margin:28px 0 8px; color:var(--accent); }
-  .meta { color:var(--muted); font-size:14px; margin-bottom:24px; }
-  nav a { color:var(--accent); margin-right:16px; text-decoration:none; font-weight:600; }
-  section { border-top:1px solid var(--line); margin-top:36px; padding-top:8px; }
+  .meta { color:var(--muted); font-size:14px; margin-bottom:16px; }
+  nav a { color:var(--accent); margin-right:14px; text-decoration:none; font-weight:600; font-size:14px; display:inline-block; margin-bottom:6px; }
+  section { border-top:1px solid var(--line); margin-top:32px; padding-top:8px; }
   ul { padding-left:20px; }
   li { margin:6px 0; }
+  a { color:var(--accent); }
 </style>
 </head>
 <body>
 <main>
 <h1>Spiritus AI</h1>
-<div class="meta">Kullanım Koşulları · Terms of Use — Son güncelleme / Last updated: 23 Eylül 2026 / 23 September 2026</div>
+<div class="meta">Kullanım Koşulları · Terms of Use — Son güncelleme / Last updated: 7 Ekim 2026 / 7 October 2026</div>
+<nav>
+  <a href="privacy.html">Gizlilik Politikası</a><a href="terms.html">Kullanım Koşulları</a><a href="aydinlatma.html">KVKK Aydınlatma Metni</a><a href="premium.html">Premium Abonelik Koşulları</a>
+</nav>
 <nav><a href="#tr">Türkçe</a><a href="#en">English</a></nav>
 
 <section id="tr">
 <h1>Kullanım Koşulları</h1>
-<p>Bu şartlar, Spiritus AI uygulamasını ("Uygulama") kullanımınızı düzenler. Uygulamayı kullanarak bu şartları kabul etmiş olursunuz.</p>
+<p>Bu koşullar, Spiritus AI uygulamasını ("Uygulama") kullanımını düzenler. Uygulama'yı kullanarak bu koşulları kabul etmiş olursun. Uygulama'yı sunan: Ozan Yıldırım (bireysel geliştirici).</p>
 
 <h2>1. Uygulamanın Amacı</h2>
-<p>Spiritus AI; İslam, Hristiyanlık, Musevilik, Budizm, Hinduizm, Stoacılık, Ateizm, Deizm ve Agnostisizm gibi farklı dini ve felsefi gelenekleri karşılaştırmalı, saygılı bir çerçevede tanıtan; namaz vakitleri, kıble yönü, günlük tutma ve yapay zekâ destekli bir "Rehber" sohbeti sunan bir kişisel gelişim ve bilgi uygulamasıdır.</p>
+<p>Spiritus AI; İslam, Hristiyanlık, Musevilik, Budizm, Hinduizm, Stoacılık, Ateizm, Deizm ve Agnostisizm gibi farklı dini ve felsefi gelenekleri karşılaştırmalı ve saygılı bir çerçevede tanıtan; namaz vakitleri, kıble yönü, günlük tutma ve yapay zekâ destekli bir "Rehber" sohbeti sunan bir kişisel gelişim ve bilgi uygulamasıdır.</p>
 
-<h2>2. Dini/Felsefi Tarafsızlık</h2>
-<p>Uygulama hiçbir dini veya felsefi görüşü diğerine üstün tutmaz, din değiştirmeyi teşvik etmez. Sunulan içerikler karşılaştırmalı bir bakış açısı sunmak amacıyla hazırlanmıştır; tekil bir dini otoritenin yerini tutmaz.</p>
+<h2>2. Yaş Sınırı</h2>
+<p>Uygulama'yı kullanmak için 18 yaşında veya daha büyük olmalısın. Hesap oluşturmadan önce yaşın kontrol edilir. 18 yaşından küçük birine ait olduğu anlaşılan hesaplar kapatılır ve verileri silinir.</p>
 
-<h2>3. Yapay Zekâ Kullanımı</h2>
-<p>"Rehber" sohbet özelliği ve Karşılaştırmalı Sorgulama'daki bazı içerikler, Anthropic'in Claude yapay zekâ modeli kullanılarak, sunucularımızdaki bir işlev üzerinden üretilir. Yapay zekâ yanıtları özenle tasarlanmış kurallarla yönlendirilse de hata içerebilir; bu yanıtlar dini bir fetva, hukuki tavsiye veya profesyonel danışmanlık yerine geçmez.</p>
+<h2>3. Dini ve Felsefi Tarafsızlık</h2>
+<p>Uygulama hiçbir dini veya felsefi görüşü diğerine üstün tutmaz ve din değiştirmeyi teşvik etmez. İçerikler karşılaştırmalı bir bakış açısı sunmak için hazırlanmıştır; bir dini otoritenin yerini tutmaz.</p>
 
-<h2>4. Hesap ve Veriler</h2>
-<p>Hesabınız Supabase altyapısı üzerinde barındırılır. Girdiğiniz bilgiler (görüntülenen ad, dil/içerik tercihi, dini/felsefi görüş seçimi, telefon numarası, günlük kayıtları, kaydedilenler) yalnızca uygulamanın işlevlerini sunmak için kullanılır.</p>
+<h2>4. Yapay Zekâ Kullanımı</h2>
+<p>"Rehber" sohbeti ve Karşılaştırmalı Sorgulama'daki bazı içerikler, Anthropic'in Claude yapay zekâ modeli kullanılarak, sunucularımızdaki bir işlev üzerinden üretilir. Yapay zekâ yanıtları özenle tasarlanmış kurallarla yönlendirilse de hata içerebilir; dini bir fetva, hukuki tavsiye veya profesyonel danışmanlık yerine geçmez.</p>
 
-<h2>5. Abonelik (Spiritus Premium)</h2>
-<p>Premium özellikler, Apple'ın StoreKit altyapısı üzerinden gerçek bir abonelik satın alımı gerektirir. Abonelik yönetimi ve iptali Apple App Store hesap ayarlarınızdan yapılır; ödeme bilgileriniz bize hiçbir zaman ulaşmaz. Premium abonelikteki "Rehber" sohbeti sınırsız olarak sunulur; bununla birlikte, otomatik veya kötüye kullanım niteliğindeki olağandışı yüksek hacimli kullanımı önlemek amacıyla makul bir adil kullanım politikası uygulanır. Bu politika, sıradan bir kullanıcının günlük kullanımını hiçbir şekilde etkilemeyecek şekilde belirlenmiştir.</p>
+<h2>5. Hesap ve Kişisel Veriler</h2>
+<p>Hesabın ve verilerin <a href="privacy.html">Gizlilik Politikası</a> ve <a href="aydinlatma.html">KVKK Aydınlatma Metni</a>'nde açıklandığı şekilde işlenir. Dini/felsefi görüş seçimi, Rehber sohbeti ve günlük özellikleri, özel nitelikli kişisel veri içerebildikleri için yalnızca ayrı ve isteğe bağlı açık rızanla çalışır. Bu onaylar bu koşulların bir parçası değildir; vermesen de Uygulama'nın diğer özelliklerini kullanabilirsin ve verdiğin onayları istediğin zaman Ayarlar'dan geri alabilirsin.</p>
 
-<h2>6. Konum ve Kamera İzinleri</h2>
-<p>Kıble yönü, yakın ibadet mekânları ve gerçek namaz vakitleri hesaplaması için konum bilginiz; Pusula özelliğinde yön bulma katmanı için kamera görüntünüz kullanılır. Bu izinler yalnızca ilgili özellik kullanılırken devreye girer ve cihazınızın izin ayarlarından her zaman geri alınabilir.</p>
+<h2>6. Spiritus Premium Aboneliği</h2>
+<ul>
+<li>Premium; Rehber'de sınırsız soru, tam tesbih halkası ve tüm ambiyans seslerini açar. Aylık ve yıllık seçenekleri vardır; güncel fiyatlar satın alma ekranında ve App Store'da gösterilir. Şu anda ücretsiz deneme sunulmamaktadır.</li>
+<li>Satın alma ve ödeme Apple App Store üzerinden yapılır; ödeme, satın almayı onayladığında Apple Kimliğinden tahsil edilir. Ödeme bilgilerin bize hiçbir zaman ulaşmaz.</li>
+<li>Abonelik, mevcut dönemin bitiminden en az 24 saat önce iptal edilmediği sürece aynı süre için otomatik olarak yenilenir.</li>
+<li>Aboneliğini iPhone'unda Ayarlar → [adın] → Abonelikler bölümünden iptal edebilirsin. İptal ettiğinde Premium erişimin, ödemesini yaptığın dönemin sonuna kadar devam eder.</li>
+<li><b>Spiritus AI hesabını silmek App Store aboneliğini iptal etmez</b>; aboneliği ayrıca iptal etmen gerekir.</li>
+<li>İadeler Apple'ın iade süreci üzerinden yürütülür. Tüketici mevzuatından doğan yasal hakların saklıdır.</li>
+<li>Premium'daki sınırsız Rehber kullanımı, otomatik veya kötüye kullanım niteliğindeki olağandışı yüksek hacimli kullanımı önlemek için makul bir adil kullanım sınırına tabidir; bu sınır sıradan günlük kullanımı etkilemez.</li>
+</ul>
+<p>Tüm ayrıntılar: <a href="premium.html">Spiritus Premium Abonelik ve Ön Bilgilendirme Koşulları</a>.</p>
 
-<h2>7. Hesap Silme</h2>
-<p>Ayarlar → Hesabı Sil yoluyla hesabınızı ve tüm ilişkili verilerinizi kalıcı olarak silebilirsiniz. Bu işlem geri alınamaz.</p>
+<h2>7. Konum ve Kamera İzinleri</h2>
+<p>Kıble yönü, yakındaki ibadet mekânları ve namaz vakitleri için konumun; Pusula özelliğinde yön bulma katmanı için kamera görüntün kullanılır. Bu izinler yalnızca ilgili özellik kullanılırken devreye girer ve cihazının ayarlarından her zaman geri alınabilir.</p>
 
-<h2>8. Değişiklikler</h2>
-<p>Bu şartlar zaman zaman güncellenebilir. Önemli değişikliklerde uygulama içinden bilgilendirileceksiniz.</p>
+<h2>8. Hesap Silme</h2>
+<p>Ayarlar → Hesabı Sil yoluyla hesabını ve tüm ilişkili verilerini kalıcı olarak silebilirsin. Bu işlem geri alınamaz ve App Store'daki aktif aboneliğini iptal etmez.</p>
 
-<h2>Yasal Uyarı</h2>
-<p>Bu metin, uygulamanın gerçek işleyişini dürüstçe yansıtacak şekilde hazırlanmıştır; ancak bir hukuk uzmanı tarafından incelenmemiştir ve resmî bir hukuki belge yerine geçmez. Uygulamanın App Store'da yayınlanmasından önce bir hukuk danışmanına gösterilmesi önerilir.</p>
+<h2>9. Değişiklikler</h2>
+<p>Bu koşullar zaman zaman güncellenebilir. Önemli değişikliklerde Uygulama içinden bilgilendirilirsin.</p>
 
-<h2>İletişim</h2>
-<p>Bu şartlarla ilgili sorularınız için: <a href="mailto:ozanyyildirim33@gmail.com">ozanyyildirim33@gmail.com</a></p>
+<h2>10. İletişim</h2>
+<p><a href="mailto:ozanyyildirim33@gmail.com">ozanyyildirim33@gmail.com</a></p>
 </section>
 
 <section id="en">
 <h1>Terms of Use</h1>
-<p>These terms govern your use of Spiritus AI (the "App"). By using the App, you agree to these terms.</p>
+<p>These terms govern your use of Spiritus AI (the "App"). By using the App, you agree to these terms. The App is provided by Ozan Yıldırım (individual developer).</p>
 
 <h2>1. Purpose of the App</h2>
-<p>Spiritus AI is a personal-growth and knowledge app that presents Islam, Christianity, Judaism, Buddhism, Hinduism, Stoicism, Atheism, Deism, and Agnosticism in a comparative, respectful framework, alongside prayer times, Qibla direction, journaling, and an AI-assisted "Guide" chat.</p>
+<p>Spiritus AI is a personal-growth and knowledge app that presents Islam, Christianity, Judaism, Buddhism, Hinduism, Stoicism, Atheism, Deism and Agnosticism in a comparative, respectful framework, alongside prayer times, Qibla direction, journaling and an AI-assisted "Guide" chat.</p>
 
-<h2>2. Religious/Philosophical Neutrality</h2>
-<p>The App never favors one tradition or philosophy over another, and never encourages conversion. Content is prepared to offer a comparative starting point, not to stand in for a single religious authority.</p>
+<h2>2. Age Requirement</h2>
+<p>You must be 18 or older to use the App. Your age is checked before an account is created. Accounts found to belong to someone under 18 are closed and their data deleted.</p>
 
-<h2>3. Use of Artificial Intelligence</h2>
-<p>The "Guide" chat feature and some content in Comparative Inquiry are generated using Anthropic's Claude AI model, via a function running on our own servers. AI responses are guided by carefully designed rules but may still contain errors; they are not a substitute for a religious ruling, legal advice, or professional counsel.</p>
+<h2>3. Religious and Philosophical Neutrality</h2>
+<p>The App never favors one tradition or philosophy over another and never encourages conversion. Content offers a comparative starting point; it does not stand in for a religious authority.</p>
 
-<h2>4. Account and Data</h2>
-<p>Your account is hosted on Supabase infrastructure. Information you provide (display name, language/content preference, faith/philosophy choice, phone number, journal entries, saved items) is used only to deliver the App's features.</p>
+<h2>4. Use of Artificial Intelligence</h2>
+<p>The "Guide" chat and some Comparative Inquiry content are generated with Anthropic's Claude AI model, through a function running on our servers. AI answers are guided by carefully designed rules but may still contain errors; they are not a religious ruling, legal advice or professional counsel.</p>
 
-<h2>5. Subscription (Spiritus Premium)</h2>
-<p>Premium features require a real subscription purchase through Apple's StoreKit. Subscription management and cancellation happen through your Apple App Store account settings; your payment details never reach us. The "Guide" chat included in Premium is offered as unlimited; however, a reasonable fair-use policy applies to prevent automated or abusive, unusually high-volume use. This policy is set at a level that will never affect an ordinary user's day-to-day use.</p>
+<h2>5. Account and Personal Data</h2>
+<p>Your account and data are processed as described in the <a href="privacy.html#en">Privacy Policy</a> and the <a href="aydinlatma.html#en">Privacy Notice</a>. Because they may involve special-category personal data, the faith/philosophy choice, the Guide chat and the journal work only with your separate, optional explicit consent. These consents are not part of these terms; you can use the rest of the App without them and withdraw them at any time in Settings.</p>
 
-<h2>6. Location and Camera Permissions</h2>
-<p>Your location is used to compute the Qibla direction, nearby places of worship, and real prayer times; your camera feed is used as a direction-finding layer in the Compass feature. These permissions are only active while the relevant feature is in use and can always be revoked from your device's settings.</p>
+<h2>6. Spiritus Premium Subscription</h2>
+<ul>
+<li>Premium unlocks unlimited Guide questions, the full dhikr ring and all ambient soundscapes. Monthly and yearly plans are available; current prices are shown on the purchase screen and on the App Store. No free trial is currently offered.</li>
+<li>Purchases and payments go through the Apple App Store; payment is charged to your Apple ID when you confirm the purchase. Your payment details never reach us.</li>
+<li>The subscription renews automatically for the same period unless cancelled at least 24 hours before the current period ends.</li>
+<li>You can cancel on your iPhone under Settings → [your name] → Subscriptions. When you cancel, Premium access continues until the end of the period you have paid for.</li>
+<li><b>Deleting your Spiritus AI account does not cancel your App Store subscription</b>; you need to cancel it separately.</li>
+<li>Refunds are handled through Apple's refund process. Your statutory consumer rights are not affected.</li>
+<li>Unlimited Guide use in Premium is subject to a reasonable fair-use limit that stops automated or abusive, unusually high-volume use; it never affects ordinary daily use.</li>
+</ul>
+<p>Full details: <a href="premium.html#en">Spiritus Premium Subscription Terms</a>.</p>
 
-<h2>7. Account Deletion</h2>
-<p>You can permanently delete your account and all associated data via Settings → Delete Account. This action cannot be undone.</p>
+<h2>7. Location and Camera Permissions</h2>
+<p>Your location is used for the Qibla direction, nearby places of worship and prayer times; your camera feed is used as a direction-finding layer in the Compass feature. These permissions are only active while the relevant feature is in use and can always be revoked in your device settings.</p>
 
-<h2>8. Changes</h2>
-<p>These terms may be updated from time to time. You'll be notified in-app of material changes.</p>
+<h2>8. Account Deletion</h2>
+<p>You can permanently delete your account and all associated data via Settings → Delete Account. This cannot be undone and does not cancel an active App Store subscription.</p>
 
-<h2>Legal Notice</h2>
-<p>This text was written to honestly reflect how the App actually works, but it has not been reviewed by a lawyer and is not a substitute for a formal legal document. It's recommended that legal counsel review it before the App is published on the App Store.</p>
+<h2>9. Changes</h2>
+<p>These terms may be updated from time to time. You will be notified in the App of material changes.</p>
 
-<h2>Contact</h2>
-<p>For questions about these terms: <a href="mailto:ozanyyildirim33@gmail.com">ozanyyildirim33@gmail.com</a></p>
+<h2>10. Contact</h2>
+<p><a href="mailto:ozanyyildirim33@gmail.com">ozanyyildirim33@gmail.com</a></p>
 </section>
 </main>
 </body>
